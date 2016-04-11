@@ -32,6 +32,7 @@ class RuleBase(Rule):
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
     <uses-permission android:name="android.permission.GET_TASKS" />
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.VIBRATE"/>
     """
 
     NATIVE_MAIN_BOOT = True
@@ -80,7 +81,7 @@ class RuleEmpty(RuleBase):
     LABEL = 'empty'
     DIRECTORY = 'empty'
     CH_NAME = '神奇小精灵加强版'
-    SDKTYPE = '0'
+    SDKTYPE = 'YY'
     PACKAGE_NAME = 'com.winnergame.pokemon.empty'
     YY_PACKAGE_NAME = 'com.winnergame.pokemon.empty'
     CHANNEL_ID = 'empty'
